@@ -54,10 +54,10 @@ Ui.getContext().Hint.Value = "Hint/BuildBase";
 
 // конфигурация инвентаря
 var roomInventory = Inventory.GetContext();
-roomInventory.Main.Value = false;
+roomInventory.Main.Value = true;
 roomInventory.Secondary.Value = false;
 roomInventory.Melee.Value = true;
-roomInventory.Explosive.Value = false;
+roomInventory.Explosive.Value = true;
 roomInventory.Build.Value = true;
 roomInventory.BuildInfinity.Value = true;
 
